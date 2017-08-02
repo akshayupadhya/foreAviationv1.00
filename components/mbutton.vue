@@ -2,7 +2,7 @@
 .button
     
     router-link( :to="item.link") 
-       v-btn.button( dark  ) {{ item.name}}
+       v-btn.button( dark  ) {{ item.title}}
                 
 </template>
 

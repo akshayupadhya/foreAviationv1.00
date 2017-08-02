@@ -3,13 +3,13 @@
     v-navigation-drawer(v-model="drawer" )
         v-toolbar( flat class="transparent")
             v-list( class="pa-0")
-             v-list-tile( tag="ul") fA
+                router-link(to="/") 
+                    v-list-tile( tag="ul") fA
         v-divider
         v-list( dense class="pt-0")
-            v-list-tile( v-for="item in list" :key="item.title")
-                v-list-tile-content
-                    router-link( :to="item.link")
-                            v-list-tile-title {{ item.name }}
+            v-list-tile( v-for="(item,$index) in list" :key="$index")
+                nuxt-link( :to="item.link") 
+                    v-list-tile-title( dark  ) {{ item.title}}
     v-toolbar( dark )
         v-toolbar-side-icon(@click.native.stop="drawer = !drawer")
         v-toolbar-title(class="white--text") 
@@ -18,7 +18,6 @@
             router-link(to="/" ) 
                 v-btn( icon)
                     v-icon home
-
 </template>
 <style lang="scss" scoped>
     a{
