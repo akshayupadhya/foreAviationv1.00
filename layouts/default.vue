@@ -1,7 +1,7 @@
 <template lang="pug">
   v-app( light)
     navigation
-    v-container-fluid.container
+    v-container.container
         main
           nuxt
 </template>

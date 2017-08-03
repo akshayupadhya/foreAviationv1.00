@@ -7,9 +7,8 @@
                     v-list-tile( tag="ul") fA
         v-divider
         v-list( dense class="pt-0")
-                v-list-tile( v-for="(item,$index) in list" ripple :key="$index")
-                   nuxt-link(  active-class="navbar__item--active",v-bind:exact="item.link === '/'",  v-bind:to="item.link") 
-                            v-list-tile-title {{ item.title}}
+                v-list-tile( v-for="(item,$index) in list" ripple  v-bind:to="item.link" :key="$index")
+                    v-list-tile-title {{ item.title}}
     v-toolbar( dark )
         v-toolbar-side-icon(@click.native.stop="drawer = !drawer")
         v-toolbar-title(class="white--text") 
