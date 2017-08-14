@@ -1,7 +1,7 @@
 # follow this [link](https://hidden-sierra-15626.herokuapp.com) for the updates of the site
 ## if you are a developer looking to work on your page?
-### all the page dat will be enclosed in a p tag , so all you have got it is assign a name for the same n style it
-### you can refer [vuetifyjs](vuetifyjs.com) for the components and style references
+ all the page dat will be enclosed in a p tag , so all you have got it is assign a name for the same and style it
+ you can refer [vuetifyjs](vuetifyjs.com) for the components and style references
 # testing
 
 > Nuxt.js + Vuetify.js project
