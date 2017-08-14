@@ -5,7 +5,7 @@
         h2.name ForeAviation
     navList
     ul.iconfooter
-      li(v-for="items in linklist")
+      li(v-for="items in $store.state.pageComponents.linklist")
         micon(v-bind:item="items")
 </template>
 
@@ -42,19 +42,16 @@
   }
 </style>
 <script>
-import {linklist} from '../assets/js/list'
 import micon from '../components/micon.vue'
-import mcaption from '../components/caption.vue'
-import navList from '../components/Navlist-home.vue'
+import navList from '../components/navlist-home.vue'
 export default {
   layout:"home",
   data(){
     return{
-      linklist
+      
     }
   },components:{
-    "micon":micon,
-    "mcaption":mcaption,
+    micon,
     navList
   }
 }
