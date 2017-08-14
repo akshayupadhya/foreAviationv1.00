@@ -1,28 +1,29 @@
 {
-  "name": "foreaviationv1.00",
-  "version": "1.0.0",
-  "description": "foreAviation",
-  "author": "akshay upadhya <akshaysrinagar@gmail.com>",
-  "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
-  },
-  "dependencies": {
-    "nuxt": "0.10.7",
-    "vue-server-renderer": "latest",
-    "vuetify": "^0.13.0"
-  },
-  "devDependencies": {
-    "coffee-loader": "^0.7.3",
-    "coffee-script": "^1.12.7",
-    "node-sass": "^4.5.3",
-    "pug": "^2.0.0-beta6",
-    "pug-loader": "^2.3.0",
-    "push-dir": "^0.4.1",
-    "sass-loader": "^6.0.6",
-    "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.1"
-  }
+    "name": "foreaviationv1.00",
+    "version": "1.0.0",
+    "description": "foreAviation",
+    "author": "akshay upadhya <akshaysrinagar@gmail.com>",
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "live-server ./dist",
+        "generate": "nuxt generate"
+    },
+    "dependencies": {
+        "live-server": "^1.2.0",
+        "nuxt": "0.10.7",
+        "vue-server-renderer": "latest",
+        "vuetify": "^0.13.0"
+    },
+    "devDependencies": {
+        "coffee-loader": "^0.7.3",
+        "coffee-script": "^1.12.7",
+        "node-sass": "^4.5.3",
+        "pug": "^2.0.0-beta6",
+        "pug-loader": "^2.3.0",
+        "push-dir": "^0.4.1",
+        "sass-loader": "^6.0.6",
+        "stylus": "^0.54.5",
+        "stylus-loader": "^3.0.1"
+    }
 }
