@@ -6,7 +6,8 @@
     "scripts": {
         "dev": "nuxt",
         "build": "nuxt build",
-        "start": "live-server ./dist",
+        "start":"live-server ./dist",
+        "deploy": "npm run build && npm run generate && git push origin master && git push heroku master",
         "generate": "nuxt generate"
     },
     "dependencies": {

@@ -1,0 +1,7 @@
+export const faq = [
+    { question: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus adipisci necessitatibus soluta quidem excepturi corporis corrupti ea repellendus repudiandae tenetur officiis, itaque omnis quasi vero expedita quaerat veritatis harum tempore!" }, 
+    { question: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus adipisci necessitatibus soluta quidem excepturi corporis corrupti ea repellendus repudiandae tenetur officiis, itaque omnis quasi vero expedita quaerat veritatis harum tempore!" }, 
+    { question: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus adipisci necessitatibus soluta quidem excepturi corporis corrupti ea repellendus repudiandae tenetur officiis, itaque omnis quasi vero expedita quaerat veritatis harum tempore!" },
+    { question: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus adipisci necessitatibus soluta quidem excepturi corporis corrupti ea repellendus repudiandae tenetur officiis, itaque omnis quasi vero expedita quaerat veritatis harum tempore!" },
+    { question: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus adipisci necessitatibus soluta quidem excepturi corporis corrupti ea repellendus repudiandae tenetur officiis, itaque omnis quasi vero expedita quaerat veritatis harum tempore!" }
+]

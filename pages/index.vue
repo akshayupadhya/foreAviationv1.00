@@ -1,8 +1,10 @@
 <template lang="pug">
   .app
     .main-box
-      .text
-        h2.name ForeAviation
+      .text1
+        img(src="/AVITAION_HYDRABAD-02.png")
+        //h2.name ForeAviation
+      h5 {{$store.state.pagedata.home.welcome}}
     navList
     ul.iconfooter
       li(v-for="items in $store.state.pageComponents.linklist")
@@ -18,13 +20,26 @@
   justify-content:center;
   align-items: center;
   .main-box{
-      .text{
+      .text1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        img{
+          transform: scaleX(2);
+          //transform: scale(0.2);
+          //border: 1px solid white;
+        }
+        
         .name{
-          padding:2% 5% ;
+          //border: 1px solid white;
+          padding:0% 5% 0% 5%;
           color: whitesmoke;
           margin: 0 3%;
         }
       }
+      h5 {
+        color: whitesmoke;
+        }
     }
   }
 

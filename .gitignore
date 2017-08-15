@@ -7,4 +7,15 @@ npm-debug.log
 # Nuxt build
 .nuxt
 
+# Coverage support
+coverage
+*.lcov
+.nyc_output
+.vscode
 
+# Intellij idea
+*.iml
+.idea
+
+# Macos
+.DS_Store
